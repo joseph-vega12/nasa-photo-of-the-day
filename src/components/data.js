@@ -5,6 +5,7 @@ export default function Data(props) {
     return (
         <div>
         {props.nasaData.title}
+        <img src={props.nasaData.url} alt="galaxy"/>
         </div>
     );
 }
